@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Roboto", "sans-serif" !important;
+}
+
+.p-card {
+  background: rgba(164, 203, 255, 0.534) !important;
+}
+
+.children > div:first-child {
+  min-height: 100vh;
+  padding: 6rem 3rem 2rem 3rem;
+}
+.p-inputtext:enabled:focus {
+  border: 1px solid #ced4da !important;
+  box-shadow: unset !important;
+}
+.p-inputtext:enabled:hover {
+  border: 1px solid #ced4da !important;
+  box-shadow: unset !important;
+}
+.p-dropdown:not(.p-disabled).p-focus {
+  border: 1px solid #ced4da !important;
+  box-shadow: unset !important;
+}
+.p-dropdown:not(.p-disabled):hover {
+  border: 1px solid #ced4da !important;
+  box-shadow: unset !important;
+}
+.p-button.p-component {
+  min-width: fit-content !important;
+}
