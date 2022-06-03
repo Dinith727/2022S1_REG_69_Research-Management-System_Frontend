@@ -1,5 +1,5 @@
 // export const BASE_URL = "http://localhost:5000";
-export const BASE_URL = "https://research-project-tool.herokuapp.com";
+export const BASE_URL = "https://research-tool-project.herokuapp.com";
 export const PINATA_URL = "https://gateway.pinata.cloud/ipfs/";
 
 const axios = require("axios").default;
